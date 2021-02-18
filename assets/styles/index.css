@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff1fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+form{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+form *{
+    padding: 10px;
+    outline: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+form label small{
+    font-size: 1rem;
+}
+form button{
+    cursor: pointer;
+    background: #097c09;
+    border: 2px solid green;
+}
