@@ -20,9 +20,10 @@ header {
     height: 10vh;
 }
 form{
-    width: 300px;
-    height: 300px;
+    width:400px;
+    height: 400px;
     display: grid;
+    grid-template-rows: 80px 100px 80px 100px;
     align-items: center;
     justify-content: center;
 }
@@ -32,6 +33,7 @@ form *{
     border-radius: 15px;
     text-align: center;
     font-size: 1.5rem;
+    max-width: 300px;
 }
 form label small{
     font-size: 1rem;
@@ -40,4 +42,11 @@ form button{
     cursor: pointer;
     background: #097c09;
     border: 2px solid green;
+}
+#resultado{
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    height: 80px;
+    letter-spacing: 1px;
 }
